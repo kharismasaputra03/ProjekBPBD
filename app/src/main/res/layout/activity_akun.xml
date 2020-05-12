@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tampilanakun"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".akun">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="20dp">
+
+        <ImageView
+            android:id="@+id/fotoprofil"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginTop="@android:dimen/app_icon_size"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/akun" />
+
+        <TextView
+            android:id="@+id/namaakun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:text="Akun"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            app:fontFamily="@font/asap_bold_italic" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="Kharisma Bachtiar S"
+            android:textColor="@android:color/background_dark"
+            android:background="@android:color/background_light"
+            app:fontFamily="@font/asap_bold_italic" />
+        <TextView
+            android:id="@+id/namapengguna"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="kharismasaputra"
+            android:textColor="@android:color/background_dark"
+            android:background="@android:color/background_light"
+            app:fontFamily="@font/asap_bold_italic" />
+        <TextView
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Jl. Anggur A.08"
+            android:textColor="@android:color/background_dark"
+            android:background="@android:color/background_light"
+            app:fontFamily="@font/asap_bold_italic" />
+        <TextView
+            android:id="@+id/no.hp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="081336506220"
+            android:textColor="@android:color/background_dark"
+            android:background="@android:color/background_light"
+            app:fontFamily="@font/asap_bold_italic" />
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="100dp"
+            android:background="#A50A33"
+            android:text="logout"
+            android:onClick="logout"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

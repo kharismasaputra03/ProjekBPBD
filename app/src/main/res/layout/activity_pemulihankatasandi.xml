@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idpemulihankatasandi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_animasi"
+    tools:context=".pemulihankatasandi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/pengaturankatasandi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Bagaimana Anda Ingin Mengatur Ulang Kata Sandi?"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                app:fontFamily="@font/asap_bold_italic" />
+
+            <TextView
+                android:id="@+id/lupakatasandi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="LUPA KATA SANDI"
+                android:textColor="@android:color/background_light"
+                app:fontFamily="@font/asap_bold_italic" />
+
+            <TextView
+                android:id="@+id/pilihanakun"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Kami menemukan informasi berikut terkait dengan akun anda"
+                android:textColor="@android:color/background_light"
+                app:fontFamily="@font/asap_bold_italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="50dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Email tautan ke kh***************@g****.***
+"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/kembali"
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/button"
+                    android:layout_margin="10dp"
+                    android:onClick="kembali"
+                    android:text="Kembali"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/selanjutnya"
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/button"
+                    android:layout_margin="10dp"
+                    android:onClick="selanjutnya"
+                    android:text="Selanjutnya"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idlupakatasandi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_animasi"
+    tools:context=".lupakatasandi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/lupakatasandi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="LUPA KATA SANDI"
+                android:textColor="@android:color/background_light"
+                app:fontFamily="@font/asap_bold_italic" />
+            <TextView
+                android:id="@+id/keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Masukkan email, nomor ponsel, atau nama pengguna Anda"
+                android:textColor="@android:color/background_light"
+                app:fontFamily="@font/asap_bold_italic" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="#94FFFFFF"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="nama pengguna / email"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#8F000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/kembali"
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/button"
+                    android:onClick="kembali"
+                    android:text="Kembali"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/selanjutnya"
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/button"
+                    android:onClick="selanjutnya"
+                    android:text="Selanjutnya"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

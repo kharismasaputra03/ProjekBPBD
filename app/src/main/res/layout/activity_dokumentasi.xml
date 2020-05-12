@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".dokumentasi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+             <ImageView
+                 android:layout_width="35dp"
+                 android:layout_height="35dp"
+                 android:layout_marginTop="20dp"
+                 android:layout_gravity="center"
+                 android:src="@drawable/bpbd"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"
+                android:text="DOKUMENTASI"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kunjungan Pak Anas"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/fotoberita"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:text="Kunjungan bapak bupati banyuwangi pada taggal 23 Juli 2019 membantu para korban yang terkena dampak dari adanya becana alam inin"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Banjir Bandang"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/fotoberita2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:text="Kunjungan bapak bupati banyuwangi pada taggal 23 Juli 2019 membantu para korban yang terkena dampak dari adanya becana alam inin"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tanah Longsor"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/fotoberita3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:text="Kunjungan bapak bupati banyuwangi pada taggal 23 Juli 2019 membantu para korban yang terkena dampak dari adanya becana alam inin"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
